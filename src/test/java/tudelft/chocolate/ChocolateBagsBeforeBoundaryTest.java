@@ -19,7 +19,7 @@ public class ChocolateBagsBeforeBoundaryTest {
 
     @Test
     public void bigAndSmallBars() {
-        int result = new ChocolateBags().calculate(5, 3, 17);
+        int result = new ChocolateBags().calculate(7, 3, 17);
         Assertions.assertEquals(2, result);
     }
 

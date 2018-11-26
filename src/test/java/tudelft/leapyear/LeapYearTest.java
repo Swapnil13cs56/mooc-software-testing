@@ -12,6 +12,7 @@ public class LeapYearTest {
     public void initialize(){
         this.ly = new LeapYear();
     }
+
     @Test
     public void leapYearsThatAreNonCenturialYears() {
         boolean result = ly.isLeapYear(2016);
@@ -34,7 +35,7 @@ public class LeapYearTest {
     }
 
     @Test
-    public void notaLearYear(){
+    public void notALearYear(){
         Assertions.assertFalse(ly.isLeapYear(1111));
     }
 }
